@@ -1,5 +1,5 @@
 
-export const CORREO_DESTINO = 'jordanyamila25Ñ@gmail.com';
+export const CORREO_DESTINO = 'jordanyamila25@gmail.com';
 
 export interface SedeMapa {
   id: string;

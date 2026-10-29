@@ -36,7 +36,7 @@ export function ContactPage() {
     setEnviando(true);
 
     try {
-      const respuesta = await fetch(`https://formsubmit.co/ajax/${CORREO_DESTINO}`, {
+      const respuesta = await fetch(`https://formspree.io/f/xeaazjng`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
